@@ -10,7 +10,7 @@ export default function Menu() {
           <MenuLink to="/">Home</MenuLink>
           <MenuLink to="/TopFilmes">Top Filmes</MenuLink>
           <MenuLink to="/TopSeries">Top Séries</MenuLink>
-          <MenuLink to="/Sujestao">Sujestão</MenuLink>
+          <MenuLink to="/Sugestao">Sugestão</MenuLink>
         </nav>
       </header>
     </>

@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Menu from './components/Menu'
 import Home from './pages/Home'
-import Sujestao from './pages/Sujestao'
+import Sugestao from './pages/Sugestao'
 import Footer from './components/Footer'
 import PaginaPadrao from './components/PaginaPadrao'
 import TopFilmes from 'pages/TopFilmes'
@@ -16,7 +16,7 @@ function AppRoutes() {
         <Routes>
           <Route path="/" element={<PaginaPadrao />}>
             <Route path="/" element={<Home />} />
-            <Route path="/Sujestao" element={<Sujestao />} />
+            <Route path="/Sugestao" element={<Sugestao />} />
           </Route>
           <Route path="/" element={<Conteudo />}>
             <Route path="/TopFilmes" element={<TopFilmes />} />
