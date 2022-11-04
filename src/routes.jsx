@@ -7,6 +7,7 @@ import PaginaPadrao from './components/PaginaPadrao'
 import TopFilmes from 'pages/TopFilmes'
 import TopSeries from 'pages/TopSeries'
 import Conteudo from 'components/Conteudo'
+import PopCorn from 'components/PopCorn'
 
 function AppRoutes() {
   return (
@@ -28,6 +29,7 @@ function AppRoutes() {
             element={<div>Erro 404 - Página não encontrada</div>}
           />
         </Routes>
+        <PopCorn/>
         <Footer />
       </BrowserRouter>
     </>
