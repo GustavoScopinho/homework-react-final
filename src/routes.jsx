@@ -2,12 +2,15 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Menu from './components/Menu'
 import Home from './pages/Home'
 import Sugestao from './pages/Sugestao'
-import Footer from './components/Footer'
 import PaginaPadrao from './components/PaginaPadrao'
 import TopFilmes from 'pages/TopFilmes'
 import TopSeries from 'pages/TopSeries'
 import Conteudo from 'components/Conteudo'
+<<<<<<< HEAD
 import PopCorn from 'components/PopCorn'
+=======
+import Footer from 'components/Footer'
+>>>>>>> Feature/Renan
 
 function AppRoutes() {
   return (
