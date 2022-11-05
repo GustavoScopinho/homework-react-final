@@ -1,5 +1,12 @@
+.containerGeral {
+	background-color: #fff;
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .containerFormulario {
-  background-color: #fff;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -7,32 +14,42 @@
 }
 
 form {
+	background-color: var(--primary-red);
   width: 450px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 10px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid var(--primary-red);
   box-shadow: 1px 1px 5px 1px #fff;
   border-radius: 5px;
-  padding: 10px;
+  padding: 25px;
+  color: var(--white);
 }
 
-form input {
-  
+form input {  
 width: 400px;
-
+height: 35px;
 }
 
 .field {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
   margin-bottom: 20px;
 }
 
 .field span {
-  color: red;
+  color: var(--primary-black);
+  font-weight: bold;
 }
-
 
 form textarea {
   width: 400px;
+  max-width: 400px;
   height: 70px;
+  max-height: 100px;
 }
 
 .noselect {
@@ -50,14 +67,14 @@ form textarea {
 	height: 50px;
 	cursor: pointer;
 	font-size: 20px;
-
+	font-weight: bold;
 	letter-spacing: 5px;
-	background: #CF0A0A;
+	background: var(--white);
   border: none;
 	box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
 	transition: 500ms;
   border-radius: 5px;
-  color: #fff;
+  color: var(--primary-red);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -31,29 +31,32 @@ export default function Formulario() {
   
 
   return (
-    <div className={styles.containerFormulario}>
-      <h1>Tem alguma sugestão? manda pra gente!</h1>
-      <form onSubmit={handleSubmit(onSubmitForm)}>
-        <div className={styles.field}>
-          <label className="label">Nome</label>
-          <input type="text" {...register('name')} />
-          <span>{errors.name?.message}</span>
-        </div>
+    <div className={styles.containerGeral}>
+      <div className={styles.containerFormulario}>
+        <h1>Tem alguma sugestão? manda pra gente!</h1>
+        <form onSubmit={handleSubmit(onSubmitForm)}>
+          <div className={styles.field}>
+            <label className="label">Nome</label>
+            <input type="text" {...register('name')} />
+            <span>{errors.name?.message}</span>
+          </div>
 
-        <div className={styles.field}>
-          <label className="label">Email</label>
-          <input type="email" {...register('email')} />
-          <span>{errors.email?.message}</span>
-        </div>
+          <div className={styles.field}>
+            <label className="label">Email</label>
+            <input type="email" {...register('email')}/>
+            <span>{errors.email?.message}</span>
+          </div>
 
-        <div className={styles.field}>
-          <label className="label">Sugestão</label>
-          <textarea {...register('content')} />
-          <span>{errors.content?.message}</span>
-        </div>
+          <div className={styles.field}>
+            <label className="label">Sugestão</label>
+            <textarea {...register('content')} />
+            <span>{errors.content?.message}</span>
+          </div>
 
-        <button className={styles.btnForm} type="submit">Enviar</button>
-      </form>
+          <button className={styles.btnForm} type="submit">Enviar</button>
+        </form>
+      </div>
+
     </div>
   )
 }
