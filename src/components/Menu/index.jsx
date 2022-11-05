@@ -11,10 +11,8 @@ export default function Menu() {
           <img className={styles.imgLuzes} src={luzes} alt="" />
           <img className={styles.imgPipoca} src={pipocaHeader} alt="" />
           <MenuLink to="/TopFilmes"><p>Top Filmes</p></MenuLink>
-          <MenuLink to="/"><h1>Home</h1></MenuLink>
-          
+          <MenuLink to="/"><h1>Home</h1></MenuLink>          
           <MenuLink to="/TopSeries"><p>Top Séries</p></MenuLink>
-          {/* <MenuLink to="/Sujestao">Sujestão</MenuLink> */}
         </nav>
       </header>
     </>

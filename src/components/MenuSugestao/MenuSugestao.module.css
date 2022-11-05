@@ -1,0 +1,54 @@
+header {
+    background-color: rgb(17, 16, 16);
+    width: 100%;
+  }
+  .navegacao {
+    height: 112px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 3rem;
+    width: 30%;
+    margin: 0 auto;
+  }  
+  
+  .navegacao h1 {
+    font-size: 3rem;
+  } 
+  
+  .imgLuzes {
+    width: 350px;
+    position: absolute;
+    right: 0;
+    top: 10;
+    margin-top: -27px;
+  }  
+  
+  .imgPipoca {
+    
+    width: 95px;
+    margin-left: -100px;
+  }
+  
+  .link {
+    font-size: 5rem;
+    line-height: 1.5rem;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .linkSublinhado {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 744px) {
+    .navegacao {
+        height: 72px;
+    }
+  }
+  
+  .headerSugestao {
+    background-color: var(--primary-red);
+  }

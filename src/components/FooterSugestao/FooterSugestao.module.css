@@ -1,0 +1,76 @@
+footer {
+  background-color: var(--primary-black);
+  height: 150px;
+  width: 100%;
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+}
+
+.mobileContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.mobileContainer img {
+  height: 50px;
+  cursor: pointer;
+}
+
+.mobileContainer img:hover {
+  transform: scale(1.05);
+}
+
+.mobileContainer p {
+  margin-right: 10px;
+  color: white;
+}
+
+.mobileContainer div:first-child {
+  margin-bottom: 5px;
+}
+
+.rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.rights p{
+  cursor: pointer;
+}
+
+.redesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redesContainer p{
+  margin-bottom: 10px;
+}
+
+.redesIcons img {
+  height: 35px;
+  cursor: pointer;
+}
+.redesIcons img:hover{
+  transform: scale(1.1);
+} 
+
+.redesIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.footerSugestão {
+  background-color: var(--primary-red);
+}
