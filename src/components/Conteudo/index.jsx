@@ -1,7 +1,9 @@
+import { Outlet } from 'react-router-dom'
+
 export default function Conteudo() {
   return (
-    <>
-      <h1>Conteudo</h1>
-    </>
+    <main>
+      <Outlet />
+    </main>
   )
 }

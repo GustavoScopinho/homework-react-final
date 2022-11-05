@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "titulo": "A Ilha do Medo",
+        "tipo": "Terror/Mistério",        
+        "duracao": "2h e 18min",
+        "lançamento": 2010,
+        "direção": "Martin Schorsese",
+        "classificação": "16 anos"    },
+    {
+        "id": 2,
+        "titulo": "A Origem",
+        "tipo": "Ação/Ficção Científica",        
+        "duracao": "2h e 28min",
+        "lançamento": 2010,
+        "direção": "Christopher Nolan",
+        "classificação": "14 anos"        
+    },
+    {
+        "id": 3,
+        "titulo": "Interestelar",
+        "tipo": "Ficção Científica/Aventura",        
+        "duracao": "2h e 49min",
+        "lançamento": 2014,
+        "direção": "Christopher Nolan",
+        "classificação": "Livre"    },
+    {
+        "id": 4,
+        "titulo": "A Era do Gelo",
+        "tipo": "Desenho/Comédia",        
+        "duracao": "1h e 24min",
+        "lançamento": 2002,
+        "direção": "Chris Wedge",
+        "classificação": "Livre"
+    }
+]
