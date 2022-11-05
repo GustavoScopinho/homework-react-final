@@ -1,0 +1,93 @@
+
+.containerHome img, .containerSecond img{
+  width: 100%;
+  margin-top: 50px;
+
+}
+
+.containerHome {
+  background-color: #000f1f;
+}
+
+.containerSecond{
+  background: rgb(0,15,31);
+background: linear-gradient(180deg, rgba(0,15,31,1) 2%, rgba(2,9,15,1) 10%, rgba(0,0,0,1) 17%, rgba(0,0,0,1) 100%);
+}
+
+.containerSecond a, .containerHome a{
+  color: #fff;
+}
+
+.containerSecond button {
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+
+
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+.containerHome button, .containerSecond button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+
+	letter-spacing: 5px;
+	background: #CF0A0A;
+	border: 2px solid black;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+	transition: 500ms;
+  border-radius: 5px;
+  color: #fff;
+  margin: 20px 0px 0px 50px;
+
+}
+
+button:after {
+	content: '';
+	position: absolute;
+	transform: translateX(-55px) translateY(-40px);
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: transparent;
+	box-shadow: 0px 0px 50px transparent;
+	transition: 500ms;
+}
+
+button:hover {
+	transform: translateY(-5px);
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+}
+
+button:hover:after {
+	background: white;
+	box-shadow: 0px 0px 20px #CF0A0A, 0px 0px 30px #CF0A0A, inset 0px 0px 10px #CF0A0A;
+	animation: spin 1s infinite linear;
+}
+
+@keyframes spin{
+	25%{transform: translateX(-25px) translateY(-35px);
+			width: 15px;
+			height: 15px;}
+	50% {transform: translateX(-55px) translateY(-30px);
+			width: 5px;
+			height: 5px;}
+	75% {transform: translateX(-85px) translateY(-35px);
+			width: 15px;
+			height: 15px;}
+}
+
+button:focus {
+	outline: none;
+}
