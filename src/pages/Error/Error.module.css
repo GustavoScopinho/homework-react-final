@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin-left: -150px;
+}
+
+.error h1 {
+    color: red;
+}
+
+.error h5 {
+    color: black;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.errorbtn {
+    width: 160px;
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.image {
+    height: 90vh;
+    margin-right: -200px;
+    margin-bottom: -5px;
+}

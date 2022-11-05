@@ -5,6 +5,7 @@ import Sugestao from './pages/Sugestao'
 import PaginaPadrao from './components/PaginaPadrao'
 import TopFilmes from 'pages/TopFilmes'
 import TopSeries from 'pages/TopSeries'
+import Error from 'pages/Error'
 import Conteudo from 'components/Conteudo'
 import PopCorn from 'components/PopCorn'
 import Footer from 'components/Footer'
@@ -24,10 +25,7 @@ function AppRoutes() {
             <Route path="/TopSeries" element={<TopSeries />} />
           </Route>
 
-          <Route
-            path="*"
-            element={<div>Erro 404 - Página não encontrada</div>}
-          />
+          <Route path="*" element={<Error/>}/>
         </Routes>
         <PopCorn/>
         <Footer />
