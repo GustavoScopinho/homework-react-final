@@ -6,6 +6,8 @@
     position: fixed;
     margin-left: 80%;
     margin-top: 16%;
+    top: 280px;
+    right: 70px;
 }
 
 .image {
@@ -14,8 +16,8 @@
 }
 
 .title {
-    font-size: 15px;
+    font-size: 16px;
     cursor: pointer;
-    color: red;
-    text-shadow: #FC0 1px 0 10px;
+    color: #fff;
+    text-shadow: #FC0 1px 1px 1px;
 }

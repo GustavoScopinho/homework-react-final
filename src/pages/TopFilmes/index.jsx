@@ -2,6 +2,7 @@ import styles from './TopFilmes.module.css';
 import PostCard from "components/PostCard";
 import posts from 'json/posts.json';
 
+
 export default function TopFilmes() {
   return(
         <div className={styles.container}>
@@ -12,6 +13,8 @@ export default function TopFilmes() {
                   </li>
               ))}                
           </ul>
+          
         </div>    
+        
 );
 }

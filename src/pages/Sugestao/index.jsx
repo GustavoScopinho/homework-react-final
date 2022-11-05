@@ -1,7 +1,9 @@
+import Formulario from "components/Formulario";
+
 export default function Sugestao() {
   return (
     <>
-      <h2>Selecao</h2>
+      <Formulario/>
     </>
   )
 }
