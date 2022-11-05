@@ -6,6 +6,7 @@ import facebook from '../../assets/facebook.png'
 import instagram from '../../assets/instagram.png'
 import tiktok from '../../assets/tiktok.png'
 import twitter from '../../assets/twitter.png'
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -28,7 +29,7 @@ export default function Footer() {
         <div className={styles.rights}>
           <p>Sobre o Enzo Filmes |</p>
           <p>Contato |</p>
-          <p>Termos e condições |</p>
+          <p> <Link to="/Sugestao">Sugestões |</Link></p>
           <p>Termos e condições |</p> 
           <p>Política de privacidade |</p>
           <p>©EnzoFilmes</p>  
