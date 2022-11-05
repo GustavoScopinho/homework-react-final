@@ -2,6 +2,10 @@ import styles from './Footer.module.css';
 import stylesGlobal from '../../App.css';
 import playStore from '../../assets/play-store.svg';
 import appleStore from '../../assets/app-store.svg'
+import facebook from '../../assets/facebook.png'
+import instagram from '../../assets/instagram.png'
+import tiktok from '../../assets/tiktok.png'
+import twitter from '../../assets/twitter.png'
 
 export default function Footer() {
   return (
@@ -14,12 +18,20 @@ export default function Footer() {
       <footer>        
         <div className={styles.redesContainer}>
           <p>SIGA-NOS</p>
-          <div>
-            
+          <div className={styles.redesIcons}>
+            <img src={facebook} alt="" />
+            <img src={instagram} alt="" />
+            <img src={tiktok} alt="" />
+            <img src={twitter} alt="" />
           </div>
         </div>
-        <div>
-          <p>SIGA-NOS</p>
+        <div className={styles.rights}>
+          <p>Sobre o Enzo Filmes |</p>
+          <p>Contato |</p>
+          <p>Termos e condições |</p>
+          <p>Termos e condições |</p> 
+          <p>Política de privacidade |</p>
+          <p>©EnzoFilmes</p>  
         </div>
       </footer>
     </>

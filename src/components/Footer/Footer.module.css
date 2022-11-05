@@ -20,6 +20,46 @@ footer {
   cursor: pointer;
 }
 
+.mobileContainer img:hover {
+  transform: scale(1.05);
+}
+
 .mobileContainer p {
   margin-right: 10px;
+}
+
+.rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.rights p{
+  cursor: pointer;
+}
+
+.redesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redesContainer p{
+  margin-bottom: 10px;
+}
+
+.redesIcons img {
+  height: 35px;
+  cursor: pointer;
+}
+.redesIcons img:hover{
+  transform: scale(1.1);
+} 
+
+.redesIcons {
+  display: flex;
+  gap: 10px;
 }
