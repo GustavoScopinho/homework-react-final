@@ -58,5 +58,57 @@
         "lançamento": 2008,
         "direção": "Vince Gilligan",
         "classificação": "18 anos"
+    },
+    {
+        "id": 8,
+        "titulo": "Game of Thrones",
+        "tipo": "Drama",        
+        "duracao": "8 temporadas",
+        "lançamento": 2011,
+        "direção": "David Benioff e D. B. Weiss",
+        "classificação": "18 anos"        
+    },
+    {
+        "id": 9,
+        "titulo": "Dark",
+        "tipo": "Mistério",        
+        "duracao": "3 temporadas",
+        "lançamento": 2017,
+        "direção": "Baran bo Odar e Jantje Friese",
+        "classificação": "16 anos"    },
+    {
+        "id": 10,
+        "titulo": "Breaking Bad",
+        "tipo": "Desenho/Comédia",        
+        "duracao": "5 temporadas",
+        "lançamento": 2008,
+        "direção": "Vince Gilligan",
+        "classificação": "18 anos"
+    },
+    {
+        "id": 11,
+        "titulo": "Game of Thrones",
+        "tipo": "Drama",        
+        "duracao": "8 temporadas",
+        "lançamento": 2011,
+        "direção": "David Benioff e D. B. Weiss",
+        "classificação": "18 anos"        
+    },
+    {
+        "id": 12,
+        "titulo": "Dark",
+        "tipo": "Mistério",        
+        "duracao": "3 temporadas",
+        "lançamento": 2017,
+        "direção": "Baran bo Odar e Jantje Friese",
+        "classificação": "16 anos"    },
+    {
+        "id": 13,
+        "titulo": "Breaking Bad",
+        "tipo": "Desenho/Comédia",        
+        "duracao": "5 temporadas",
+        "lançamento": 2008,
+        "direção": "Vince Gilligan",
+        "classificação": "18 anos"
     }
 ]
