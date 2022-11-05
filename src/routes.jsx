@@ -6,11 +6,8 @@ import PaginaPadrao from './components/PaginaPadrao'
 import TopFilmes from 'pages/TopFilmes'
 import TopSeries from 'pages/TopSeries'
 import Conteudo from 'components/Conteudo'
-<<<<<<< HEAD
 import PopCorn from 'components/PopCorn'
-=======
 import Footer from 'components/Footer'
->>>>>>> Feature/Renan
 
 function AppRoutes() {
   return (
