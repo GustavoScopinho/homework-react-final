@@ -1,5 +1,4 @@
 import MenuLink from 'components/MenuLink'
-import { Link } from 'react-router-dom'
 import styles from './Menu.module.css'
 import pipocaHeader from '../../assets/imagem-pipoca.png'
 import luzes from '../../assets/luzes.png'

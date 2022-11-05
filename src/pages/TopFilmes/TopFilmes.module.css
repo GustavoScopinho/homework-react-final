@@ -11,3 +11,7 @@ body {background-color: black;}
 .posts li {
     list-style-type: none;
 }
+
+.container {
+    margin-top: 90px;
+}

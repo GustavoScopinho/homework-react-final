@@ -4,7 +4,7 @@ import posts from 'json/posts.json';
 
 export default function TopFilmes() {
   return(
-        <div>
+        <div className={styles.container}>
           <ul className={styles.posts}>
               {posts.map((post) => (
                   <li key={post.id}>
