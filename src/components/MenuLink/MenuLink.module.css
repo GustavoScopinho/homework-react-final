@@ -1,9 +1,10 @@
 .link {
   font-size: 1.25rem;
   line-height: 1.5rem;
-  color: var(--cor-fonte-principal);
+  color: #fff;
 }
 
 .linkSublinhado {
-  text-decoration: underline;
+    /* color: #CF0A0A; */
+    text-shadow: #CF0A0A 1px 0 10px;
 }
