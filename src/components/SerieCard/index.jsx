@@ -1,13 +1,13 @@
-import styles from './PostCard.module.css';
+import styles from './SerieCard.module.css';
 
-export default function PostCard({post}) {
+export default function SerieCard({post}) {
 
     return(
         <div className={styles.post}>
             <img 
                 className={styles.image} 
-                src={`/assets/Movies/${post.id}/img.png`} 
-                alt="Card Post" 
+                src={`/assets/Series/${post.id}/img.png`} 
+                alt="Serie Card" 
             />
             <h1 className={styles.title}>{post.titulo}</h1>
             <p className={styles.text}>

@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "titulo": "Stranger Things",
+        "tipo": "Mistério",        
+        "duracao": "4 temporadas",
+        "lançamento": 2016,
+        "direção": "Matt Duffer e Ross Duffer",
+        "classificação": "16 anos"    },
+    {
+        "id": 2,
+        "titulo": "Game of Thrones",
+        "tipo": "Drama",        
+        "duracao": "8 temporadas",
+        "lançamento": 2011,
+        "direção": "David Benioff e D. B. Weiss",
+        "classificação": "18 anos"        
+    },
+    {
+        "id": 3,
+        "titulo": "Dark",
+        "tipo": "Mistério",        
+        "duracao": "3 temporadas",
+        "lançamento": 2017,
+        "direção": "Baran bo Odar e Jantje Friese",
+        "classificação": "16 anos"    },
+    {
+        "id": 4,
+        "titulo": "Breaking Bad",
+        "tipo": "Desenho/Comédia",        
+        "duracao": "5 temporadas",
+        "lançamento": 2008,
+        "direção": "Vince Gilligan",
+        "classificação": "18 anos"
+    }
+]
