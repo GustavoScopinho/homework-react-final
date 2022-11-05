@@ -11,11 +11,15 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <>
-          <div className={styles.mobileContainer}>
-            <p>Também disponível no seu smartphone</p>
-            <img src={playStore} alt="" />
-            <img src={appleStore} alt="" />
-          </div>
+      <div className={styles.mobileContainer}>
+        <div>
+          <p>Também disponível no seu smartphone</p>
+        </div>
+        <div>
+          <img src={playStore} alt="" />
+          <img src={appleStore} alt="" />
+        </div>
+      </div>
       <footer>        
         <div className={styles.redesContainer}>
           <p>SIGA-NOS</p>
