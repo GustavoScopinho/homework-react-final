@@ -34,6 +34,10 @@ height: 35px;
 color: #000;
 }
 
+.field textarea {
+	color: #000;
+}
+
 .field {
 	display: flex;
 	flex-direction: column;
