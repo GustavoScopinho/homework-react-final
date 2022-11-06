@@ -12,7 +12,6 @@
 .containerSecond{
   background: rgb(0,15,31);
 background: linear-gradient(180deg, rgba(0,15,31,1) 2%, rgba(2,9,15,1) 10%, rgba(0,0,0,1) 17%, rgba(0,0,0,1) 100%);
-margin-bottom: 150px;
 }
 
 .containerSecond a, .containerHome a{
