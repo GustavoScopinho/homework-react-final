@@ -72,7 +72,7 @@
 
 <hr>
 
-## Mais sobre o projeto:
+## Mais fotos do projeto:
 <img src="https://i.imgur.com/YsQsBZr.png">
 <br>
 <img src="https://i.imgur.com/thUP21Q.png">
