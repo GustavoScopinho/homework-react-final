@@ -15,7 +15,7 @@ export default function Footer() {
         <div>
           <p>Também disponível no seu smartphone</p>
         </div>
-        <div>
+        <div className={styles.app}>
           <img src={playStore} alt="" />
           <img src={appleStore} alt="" />
         </div>

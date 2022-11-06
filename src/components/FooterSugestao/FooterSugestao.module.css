@@ -58,6 +58,11 @@ footer {
   margin-bottom: 10px;
 }
 
+.appImage {
+  display: flex;  
+  gap: 10px;
+}
+
 .redesIcons img {
   height: 35px;
   cursor: pointer;

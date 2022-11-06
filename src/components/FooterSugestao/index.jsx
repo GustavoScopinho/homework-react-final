@@ -15,7 +15,7 @@ export default function FooterSugestao() {
         <div>
           <p style={{color: "black"}}>Também disponível no seu smartphone</p>
         </div>
-        <div>
+        <div className={styles.appImage}>
           <img src={playStore} alt="" />
           <img src={appleStore} alt="" />
         </div>

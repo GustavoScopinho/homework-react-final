@@ -35,6 +35,11 @@ footer {
   margin-bottom: 5px;
 }
 
+.appImage {
+  display: flex;
+  gap: 10px;
+}
+
 .rights {
   display: flex;
   justify-content: center;
