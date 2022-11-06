@@ -39,7 +39,7 @@
 
 - Chegamos a parte mais fácil que é inicializar o seu projeto. Para sermos mais diretos, para INICIALIZAR você só precisa escrever o seguinte comando no prompt: 
 1. **npm start**
-2. **json-server --watch db.json --port 5000** 
+2. npm run backend 
 - (para inicializar o json server);
 
 3. **E se desejar parar e execução, pressione:**
