@@ -25,7 +25,8 @@ export default function Formulario() {
 
 
   function onSubmitForm(data) {
-     axios.post('http://localhost:5000/Sugestao', data) 
+     axios.post('http://localhost:5000/Sugestao', data);
+     window.alert(`Sugestão enviada!`) ;
      window.location.reload()
   }
   
