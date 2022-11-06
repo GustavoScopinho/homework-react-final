@@ -19,6 +19,9 @@ header {
   font-size: 3rem;
 }
 
+.navegacao p {
+  text-align: center;
+}
 
 .imgLuzes {
   width: 350px;
