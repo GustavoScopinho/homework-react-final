@@ -35,6 +35,10 @@
     transition: .5;
 }
 
+.btnCarrosel:active {
+    transform: scale(.9);
+}
+
 .btnCarrosel:hover {
     opacity: 1;
 }

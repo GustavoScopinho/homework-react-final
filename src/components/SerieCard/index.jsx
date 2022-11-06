@@ -1,22 +1,16 @@
 import styles from './SerieCard.module.css';
 
-export default function SerieCard({post}) {
-
+export default function SerieCard({serie}) {
     return(
         <div className={styles.post}>
             <img 
                 className={styles.image} 
-                src={`/assets/Series/${post.id}/img.png`} 
+                src={`https://image.tmdb.org/t/p/w500/${serie.poster_path}`} 
                 alt="Serie Card" 
             />
-            <h1 className={styles.title}>{post.titulo}</h1>
-            <p className={styles.text}>
-                Tipo: {post.tipo} <br />
-                Duração: {post.duracao} <br />
-                Lançamento: {post.lançamento} <br />
-                Direção: {post.direção} <br />
-                Classificação: {post.classificação} <br />
-            </p>
+            <div className={styles.serieTitulo}>
+                <h1 className={styles.title}>{serie.name}</h1>
+            </div>
             
             <button className={styles.buttoncard}>Assistir</button>
         </div>
