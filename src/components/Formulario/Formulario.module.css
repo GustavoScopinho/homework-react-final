@@ -1,0 +1,141 @@
+.containerGeral {
+	background-color: #fff;
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0px;
+}
+
+.containerFormulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerFormulario h1 {
+	line-height: 50px;
+}
+
+.containerFormulario h1:nth-child(2){
+	margin-bottom: 40px;
+}
+
+form {
+	background-color: var(--primary-red);
+  width: 450px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid var(--primary-red);
+  box-shadow: 1px 1px 15px 1px rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 25px;
+  color: var(--white);
+
+}
+
+form input {  
+width: 400px;
+height: 35px;
+color: #000;
+border-radius: 5px;
+border: none;
+}
+
+.field textarea {
+	color: #000;
+	border-radius: 5px;
+	border: none;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+  margin-bottom: 20px;
+}
+
+.field span {
+  color: var(--primary-black);
+  font-weight: bold;
+}
+
+form textarea {
+  width: 400px;
+  max-width: 400px;
+  height: 70px;
+  max-height: 100px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+.btnForm{
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	background: var(--white);
+  border: none;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+	transition: 500ms;
+  border-radius: 5px;
+  color: var(--primary-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.btnForm:after {
+	content: '';
+	position: absolute;
+	transform: translateX(-55px) translateY(-40px);
+	width: 25px;
+	height: 25px;
+	border-radius: 50%; 
+	background: transparent;
+	box-shadow: 0px 0px 50px transparent;
+	transition: 500ms;
+}
+
+.btnForm:hover {
+	transform: translateY(-5px);
+	box-shadow: 5px 5px 30px 5px rgb(0, 0, 0);
+	
+}
+
+.btnForm:hover:after {
+	background: white;
+	box-shadow: 0px 0px 20px #CF0A0A, 0px 0px 30px #CF0A0A, inset 0px 0px 10px #CF0A0A;
+	animation: spin 1s infinite linear;
+}
+
+@keyframes spin{
+	25%{transform: translateX(-25px) translateY(-35px);
+			width: 15px;
+			height: 15px;}
+	50% {transform: translateX(-55px) translateY(-30px);
+			width: 5px;
+			height: 5px;}
+	75% {transform: translateX(-85px) translateY(-35px);
+			width: 15px;
+			height: 15px;}
+}
+
+button:focus {
+	outline: none;
+}

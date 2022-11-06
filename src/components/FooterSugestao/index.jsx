@@ -1,4 +1,4 @@
-import styles from './Footer.module.css';
+import styles from './FooterSugestao.module.css';
 import stylesGlobal from '../../App.css';
 import playStore from '../../assets/play-store.svg';
 import appleStore from '../../assets/app-store.svg'
@@ -8,19 +8,19 @@ import tiktok from '../../assets/tiktok.png'
 import twitter from '../../assets/twitter.png'
 import { Link } from 'react-router-dom';
 
-export default function Footer() {
+export default function FooterSugestao() {
   return (
     <>
       <div className={styles.mobileContainer}>
         <div>
-          <p>Também disponível no seu smartphone</p>
+          <p style={{color: "black"}}>Também disponível no seu smartphone</p>
         </div>
-        <div className={styles.app}>
+        <div className={styles.appImage}>
           <img src={playStore} alt="" />
           <img src={appleStore} alt="" />
         </div>
       </div>
-      <footer>        
+      <footer className={styles.footerSugestão}>        
         <div className={styles.redesContainer}>
           <p>SIGA-NOS</p>
           <div className={styles.redesIcons}>

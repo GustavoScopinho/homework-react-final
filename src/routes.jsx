@@ -1,36 +1,28 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Menu from './components/Menu'
 import Home from './pages/Home'
 import Sugestao from './pages/Sugestao'
-import Footer from './components/Footer'
 import PaginaPadrao from './components/PaginaPadrao'
 import TopFilmes from 'pages/TopFilmes'
 import TopSeries from 'pages/TopSeries'
+import Error from 'pages/Error'
 import Conteudo from 'components/Conteudo'
-import PopCorn from 'components/PopCorn'
 
 function AppRoutes() {
   return (
     <>
       <BrowserRouter>
-        <Menu />
         <Routes>
           <Route path="/" element={<PaginaPadrao />}>
             <Route path="/" element={<Home />} />
-            <Route path="/Sugestao" element={<Sugestao />} />
-          </Route>
-          <Route path="/" element={<Conteudo />}>
             <Route path="/TopFilmes" element={<TopFilmes />} />
             <Route path="/TopSeries" element={<TopSeries />} />
           </Route>
+          <Route path="/" element={<Conteudo />}>            
+          <Route path="/Sugestao" element={<Sugestao />} />
+          </Route>
 
-          <Route
-            path="*"
-            element={<div>Erro 404 - Página não encontrada</div>}
-          />
+          <Route path="*" element={<Error/>}/>
         </Routes>
-        <PopCorn/>
-        <Footer />
       </BrowserRouter>
     </>
   )

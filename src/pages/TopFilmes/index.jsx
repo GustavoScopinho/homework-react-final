@@ -1,7 +1,10 @@
+import styles from './TopFilmes.module.css';
+import CarouselFilmes from 'components/CarouselFilmes';
+
 export default function TopFilmes() {
-  return (
-    <>
-      <h1>Top Filmes</h1>
-    </>
-  )
+  return(
+        <div className={styles.container}>
+          <CarouselFilmes />
+        </div>    
+  );
 }

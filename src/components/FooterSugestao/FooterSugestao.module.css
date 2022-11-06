@@ -35,11 +35,6 @@ footer {
   margin-bottom: 5px;
 }
 
-.appImage {
-  display: flex;
-  gap: 10px;
-}
-
 .rights {
   display: flex;
   justify-content: center;
@@ -63,6 +58,11 @@ footer {
   margin-bottom: 10px;
 }
 
+.appImage {
+  display: flex;  
+  gap: 10px;
+}
+
 .redesIcons img {
   height: 35px;
   cursor: pointer;
@@ -74,4 +74,8 @@ footer {
 .redesIcons {
   display: flex;
   gap: 10px;
+}
+
+.footerSugestão {
+  background-color: var(--primary-red);
 }

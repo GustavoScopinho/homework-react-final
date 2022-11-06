@@ -1,4 +1,7 @@
 
+body {
+  background-color: #000;
+}
 .posts {
   padding: 0 6vw 3.625rem;
   display: flex;

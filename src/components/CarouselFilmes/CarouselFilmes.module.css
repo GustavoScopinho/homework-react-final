@@ -1,0 +1,80 @@
+.posts {
+    display: flex;
+    justify-content: center;
+    margin-top: -1.5rem;    
+    scroll-behavior: smooth;
+}
+
+.posts li {
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+.containerGeral {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    margin: 100px 0px 0px 0px;
+}
+
+.containerGeral .setas{
+    width: 50px;
+}
+
+.btnCarrosel{
+    border: none;
+    height: 100%;
+    width: 100px;
+    color: var(--white);
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 0%, black 40%);
+    position: absolute;
+    left: 5%;
+    opacity: .4;
+    transition: .5;
+}
+
+.btnCarrosel:active {
+    transform: scale(.9);
+}
+
+.btnCarrosel:hover {
+    opacity: 1;
+}
+
+.btnRight{
+    background: linear-gradient(to right, transparent 0%, black 50%);
+    left: auto;
+    right: 5%;
+}
+
+.container {
+    width: 82%;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    height: 550px;
+}
+
+
+button:after {
+	content: 0;
+	position: 0;
+	transform: 0;
+	width: 0;
+	height: 0;
+	border-radius: 0;
+	background: 0t;
+	box-shadow: 0;
+	transition: 0;
+}
+
+button:hover:after {
+	background: none;
+	box-shadow: none;
+	animation: none;
+}
