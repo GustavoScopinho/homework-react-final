@@ -10,6 +10,12 @@
     right: 5%;
 }
 
+.position:hover {
+    scale: 1.1;
+    transition: 0.2s;
+    
+}
+
 .image {
     height: 100px;
     cursor: pointer;
