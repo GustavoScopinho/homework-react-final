@@ -9,7 +9,11 @@ export default function FilmesCard({filme}) {
                 src={`https://image.tmdb.org/t/p/w500/${filme.poster_path}`} 
                 alt="Card Post" 
             />
-            <h1 className={styles.title}>{filme.title}</h1>
+
+            <div className={styles.filmeTitulo}>
+                
+                <h1 className={styles.title}>{filme.title}</h1>
+            </div>
             
             <button className={styles.buttoncard}>Assistir</button>
         </div>

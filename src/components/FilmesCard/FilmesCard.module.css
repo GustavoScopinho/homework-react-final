@@ -27,8 +27,12 @@
     cursor: pointer;
 }
 
+.filmeTitulo {
+    height: 80px;
+}
+
 .title {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
     background-color: red;
     color: white;
@@ -38,7 +42,8 @@
     margin-bottom: 0;
     margin-top: 6px;
     text-shadow: 2px 2px #000000;
-    user-select: none;
+    user-select: none;    
+    line-height: 35px;
 }
 
 .title:hover {
