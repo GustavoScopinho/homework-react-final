@@ -31,6 +31,7 @@ form {
 form input {  
 width: 400px;
 height: 35px;
+color: #000;
 }
 
 .field {
