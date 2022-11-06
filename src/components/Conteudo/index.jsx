@@ -9,7 +9,6 @@ export default function Conteudo() {
     <main className={styles.mainSugestao}>
       <MenuSugestao />
       <Outlet />
-      <PopCorn />
       <FooterSugestao />
     </main>
   )

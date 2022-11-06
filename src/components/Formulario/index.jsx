@@ -34,7 +34,8 @@ export default function Formulario() {
   return (
     <div className={styles.containerGeral}>
       <div className={styles.containerFormulario}>
-        <h1>Tem alguma sugestão? manda pra gente!</h1>
+        <h1>Tem alguma sugestão?</h1>
+        <h1>Manda pra gente!</h1>
         <form onSubmit={handleSubmit(onSubmitForm)}>
           <div className={styles.field}>
             <label className="label">Nome</label>
