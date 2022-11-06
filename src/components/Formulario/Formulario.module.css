@@ -32,10 +32,14 @@ form input {
 width: 400px;
 height: 35px;
 color: #000;
+border-radius: 5px;
+border: none;
 }
 
 .field textarea {
 	color: #000;
+	border-radius: 5px;
+	border: none;
 }
 
 .field {

@@ -31,7 +31,7 @@
     background: linear-gradient(to left, transparent 0%, black 40%);
     position: absolute;
     left: 5%;
-    opacity: .2;
+    opacity: .4;
     transition: .5;
 }
 
