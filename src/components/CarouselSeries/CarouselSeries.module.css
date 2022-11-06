@@ -39,6 +39,10 @@
     opacity: 1;
 }
 
+.btnCarrosel:active {
+    transform: scale(.9);
+}
+
 .btnRight{
     background: linear-gradient(to right, transparent 0%, black 50%);
     left: auto;
