@@ -1,7 +1,6 @@
 import styles from './SerieCard.module.css';
 
 export default function SerieCard({serie}) {
-    console.log(serie.name.substring(0, 30))
     return(
         <div className={styles.post}>
             <img 
