@@ -3,17 +3,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    margin-left: 80%;
+    position: sticky;
+    margin-left: 90%;
     margin-top: 17%;
-    top: 35%;
+    bottom: 20px;
     right: 5%;
 }
 
 .position:hover {
     scale: 1.1;
     transition: 0.2s;
-    
+    transform: rotate(2deg);
 }
 
 .image {

@@ -6,7 +6,7 @@ export default function PopCorn() {
     return(
         <Link to="/Sugestao">
 
-<div className={styles.position}>
+        <div className={styles.position}>
             <h1 className={styles.title}>Sujestões?</h1>
             <img
             className={styles.image} 
