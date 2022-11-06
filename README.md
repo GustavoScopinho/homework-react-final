@@ -29,7 +29,9 @@
 - **npm i**
 - **npm install axios**
 - **npm install react-router-dom@6**
+- **npm install react-hook-form**
 - **npm install -S yup**
+- **npm install -g json-server**
 
 <hr>
 
@@ -37,9 +39,11 @@
 
 - Chegamos a parte mais fácil que é inicializar o seu projeto. Para sermos mais diretos, para INICIALIZAR você só precisa escrever o seguinte comando no prompt: 
 1. **npm start**
+2. **json-server --watch db.json --port 5000** 
+- (para inicializar o json server);
 
-- E se desejar parar e execução, pressione:
-2. **ctrl + c**
+3. **E se desejar parar e execução, pressione:**
+- **ctrl + c**
 
 ### ⚠️ **Mas vamos a algumas observações importantes:** ⚠️
 - Algumas alterações podem acabar causando bug's se feitas com o servidor rodando. Então se ALGO NÃO ESTIVER CARREGANDO, tente reinicializar o servidor.
