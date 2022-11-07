@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function PopCorn() {
     return(  
             <div className={styles.position}>
-                <h1 className={styles.title}>Sujestões?</h1>
+                <h1 className={styles.title}>Sugestões?</h1>
                 <Link to="/Sugestao">
                     <img
                     className={styles.image} 
