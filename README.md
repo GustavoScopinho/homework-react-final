@@ -59,9 +59,18 @@
 
 3. **Mantenha a calma e acostume-se com os erros, eles fazem parte do seu dia-a-dia como programador. Apenas respire e resolva-os!** 
 
+
 <hr>
 
-## **React Hooks Usados;**
+## **API utilizada:**
+
+<img height='100px' align='center' background='#61DAFB' src='https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg'><img/>
+
+- Utilizamos a API <a href="https://developers.themoviedb.org/3/getting-started/introduction" target="blank">The movie data base</a> para nos fornecer os filmes e séries que são mostrados os cards.
+
+<hr>
+
+## **React Hooks Usados:**
 
 <img height='100px' align='center' background='#61DAFB' src='https://raw.githubusercontent.com/gist/onlyxdev/4b2053f2934320e75908f1d3737ac2e6/raw/b4ccd7e7be298c80532e2799480629c69958c640/react-lg.svg'><img/>
 
